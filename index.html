@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Index</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
+    <style type="text/css">
+    	.container{
+    		border:3px double red;
+    		background-color: black;
+    	}
+    	.col-5{
+    		/*border: 1px solid white;*/
+    		height: 210px;
+    		width: 800px;
+    	}
+    	.col-5 img{
+    		width: 220px;
+    		/*height:160px; */
+    	}
+    	#menyu{
+
+		
+			/*background-color: red;*/
+			/*color:white;*/
+			/*border-radius: 100%;*/
+			position: relative;
+			top: 0px;
+			left: 0px;
+			/*width: 30px;*/
+			/*height: 30px;*/
+
+			display: none;
+
+    	}
+
+		#up{
+			background-color: black;
+			/*color:white;*/
+			border-radius: 100%;
+			position: fixed;
+			right:120px;
+			bottom:30px;
+			/*width: 30px;*/
+			/*height: 30px;*/
+			display: none;
+			width: 80px;
+			height: 80px;
+			background-image: url('photo/стрелка.png');
+			background-repeat: no-repeat;
+			background-size: 80px 80px;
+		}
+    </style>
+</head>
+<body>
+<div id="up">
+	
+</div>
+<div class="container" >
+	<div class="row justify-content-around align-items-center " style="height: 220px;">
+		<div class="col-5">
+			<img src="photo/HD-wallpaper-puma-gold-pumalogo.jpg" class="rounded mx-auto d-block " alt="..." >
+		</div>
+	</div>
+	<div class="row justify-content-around align-items-center"  style="height: 530px;">
+		<div class="col-5" style=";height: 520px;">
+         <img src="photo/slider1.jpg" class="img-fluid" alt="..." style="width: 900px; height: 500px;" id="picture">
+		</div>
+	</div>
+	<div class="row justify-content-around align-items-center"  style="height: 380px;">
+		<div class="col-3" style="height: 350px; width: 350px;"onclick="block2(this)">
+			<img src="photo/slider2.jpg" style="width: 315px;height: 320px;" class="rounded mx-auto d-block img-thumbnail" alt="..."  >
+		</div>
+		<div class="col-3" style="/*border: 5px double white;*/height: 350px;  width: 350px;" onclick="block3(this)">
+			<img src="photo/slider3.jpg" style="width: 315px;height: 320px;" class="rounded mx-auto d-block img-thumbnail" alt="..."  >
+			
+		</div>
+		<div class="col-3" style="height: 350px; width: 350" onclick="block4(this)">
+			<img src="photo/slider1.jpg" style="width: 315px;height: 320px;" class="rounded mx-auto d-block img-thumbnail" alt="..."  >
+			
+		</div>
+	</div>
+
+	<div class="row  justify-content-around align-items-center"  style="height: 100px;">
+		<div class="col-12" style="/*border: 1px solid white;*/ height: 80px;">
+
+
+		<nav class="navbar navbar-expand-lg navbar-light bg-black" id="menyu">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="photo/puma.png" style="width:100px;height: 52px;"> </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="https://ru.puma.com/sportivnye-tovary-dlja-muzhchin.html"><font color="white"><strong>Мужчины</strong></font></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://ru.puma.com/sportivnye-tovary-dlja-zhenshhin.html"><font color="white"><strong>Женщины</strong></font></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://ru.puma.com/sportivnye-tovary-dlja-detej.html"><font color="white"><strong>Дети</strong></font></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://ru.puma.com/questions.html"><font color="white"><strong>Контакты</strong></font></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://ru.puma.com/kollaboracii.html" id="Tovarr"><font color="white"><strong>Товары</strong></font></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://about.puma.com/en/this-is-puma" id="Companyy"><font color="white"><strong>О компании</strong></font></a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+			
+
+
+		</div>
+	</div>
+	<div class="row  justify-content-around align-items-center" style="height: 400px">
+		<div class="col-10" style="/*border: 1px solid red;*/ height: 390px; color: white; font-size: 16px;" id="Comp">
+			<strong>История компании Puma</strong><br>
+1924
+Рудольф и Адольф Дасслер начинают производство спортивной обуви в г. Герцогенаурах, основав компанию «Обувная Фабрика братьев Дасслер». Немецкая компания завоевывает мировую репутацию благодаря новым подходам и качеству производства.
+1948
+Братья делят компанию — Адольф основывает Адидас, Рудольф Дасслер Спортивное производство Рудольфа Дасслера под названием PUMA. В этом же году PUMA выпускает в свет первые свои футбольные бутсы под названием Atom. И уже в одном из первых футбольных матчей, который проходил после Второй Мировой Войны несколько игроков национальной команды отдают свое предпочтение бутсам от Рудольфа, выступая в них на соревнованиях.
+1958
+Рождение PUMA formstrip, формстрип — первоначально элемента боковой поддержки в бутсах, в последствие стал отличительным знаком PUMA. На чемпионате мира по футболу, игроки сборных Швеции и Бразилии впервые вышли на поле в обуви PUMA c фирменными полосками formstrip.
+1960
+PUMA — первая спортивная компания, которая начинает использовать вулканизацию при соединении верха и подошвы обуви под горячим прессом, создавая предшественников классических Suede, Clyde и прочих моделей.
+1962
+Пеле выигрывает Чемпионат мира в Чили во второй раз подряд в бутсах PUMA. Спустя 8 лет, он выиграет его в третий раз, став навеки легендой футбола.
+
+
+		</div>
+	</div>
+	<div class="row  justify-content-around align-items-center" style="height: 320px;">
+		<div class="col-3" style="/*border:1px solid white;*/ height: 300px;" id="tovar" 	>
+			<img src="photo/puma (for children slider).png" style="width: 220px;height: 200px;" class=" img-thumbnail" alt="..."  >
+			<br><br>
+            <span class="badge bg-dark text-white">Цена:</span> <span class="badge bg-dark text-white">$:100</span>
+
+			
+		</div>
+		<div class="col-3" style="/*border:1px solid white;*/ height: 300px;">
+			<img src="photo/puma (for girls slider).png" style="width: 220px;height: 200px;" class="img-thumbnail" alt="..."  >
+			<br><br>
+            <span class="badge bg-dark text-white">Цена:</span> <span class="badge bg-dark text-white">$:150</span>
+
+			
+		</div>
+		<div class="col-3" style="/*border:1px solid white;*/ height: 300px;">
+			<img src="photo/puma (for men slider).png" style="width: 220px;height: 200px;" class="img-thumbnail" alt="..."  >
+			<br><br>
+            <span class="badge bg-dark text-white">Цена:</span> <span class="badge bg-dark text-white">$:180</span>
+		</div>
+
+	</div>
+	<div class="row  justify-content-around align-items-center" style="height: 310px;">
+		<div class="col-3" style="/*border:1px solid green;*/height: 190px; width: 300px;">
+			<img src="photo/puma1.jpg"  class= alt="..."  >
+			
+		</div>
+		<div class="col-3" style="/*border:1px solid green;*/height: 190px; width: 300px;">
+			<img src="photo/puma2.jpg"  class= alt="..."  >
+			
+		</div>
+		<div class="col-3" style="/*border:1px solid green;*/height: 190px; width: 300px;">
+			<img src="photo/puma.png"  class=" rounded mx-auto d-block"  alt="..."   >
+
+		</div>
+	</div>
+	<div class="row justify-content-around align-items-center" style="height:  400px;">
+		<div class="col-3" style="/*border: 1px dotted red;*/ height: 220px;" >
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button  onclick="counter()" style="font-size: 20px;font-family: 'arial'; color: white; font-weight: bold; background-color: black; " >Наши клиенты</button >
+			<h2 style="color: white; text-align: center; font-size:60px; " id="number" >0</h2>
+		</div>
+		<div class="col-7" style="/*border: 1px dotted red;*/ height: 200px;" >
+        <a href="https://facebbok.com"><i class="fa fa-facebook fa-xxl fa-3x" style="color: white;"></i></a>
+        <a href="https://web.telegram.org/"><i class="fa fa-telegram fa-xxl fa-3x" style="color: white;"></i></a>
+		<a href="https://google.com"><i class="fa fa-google fa-3x" style="color: white;"></i></a>
+		<a href="https://instagram.com"><i class="fa fa-instagram fa-3x" style="color: white;"></i></a>
+		<a href="https://twitter.com"><i class="fa fa-twitter fa-3x" style="color: white;"></i></a>
+		<a href="https://play.google.com/store/apps/details?id=com.simpler.contacts&hl=ru&gl=US" style="color: white;"><i class="fa fa-phone fa-3x">998945557444</i></a>
+		</div>
+		<!-- <div class="col-3" style="border: 1px dotted red; height: 300px;" ></div> -->
+	</div>
+
+	<div class="row justify-content-around align-items-center">
+<div class="col-11">
+  <form class="row g-3">
+    <div class="col-md-4">
+      <label for="validationDefault01" class="form-label"><font color="white">Имя</font></label>
+      <input type="text" class="form-control" id="validationDefault01" value="Жахонгир" required>
+    </div>
+    <div class="col-md-4">
+      <label for="validationDefault02" class="form-label"><font color="white">Фамилия</font></label>
+      <input type="text" class="form-control" id="validationDefault02" value="Тоиржонов" required>
+    </div>
+    <div class="col-md-4">
+      <label for="validationDefaultUsername" class="form-label"><font color="white">Имя пользователя</font></label>
+      <div class="input-group">
+        <span class="input-group-text" id="inputGroupPrepend2">@</span>
+        <input type="text" class="form-control" id="validationDefaultUsername"  aria-describedby="inputGroupPrepend2" required>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <label for="validationDefault03" class="form-label"><font color="white">Город</font></label>
+      <input type="text" class="form-control" id="validationDefault03" required>
+    </div>
+    <div class="col-md-3">
+      <label for="validationDefault04" class="form-label"><font color="white">Государство</font></label>
+      <select class="form-select" id="validationDefault04" required>
+        <option>...</option>
+        <option >Узбекистан</option>
+        <option >Россия</option>
+        <option >Германия</option>
+        <option >Япония</option>
+        <option >Америка</option>
+        <option >Канада</option>
+      </select>
+    </div>
+    <div class="col-md-3">
+      <label for="validationDefault05" class="form-label"><font color="white">Почтовый индекс</font></label>
+      <input type="text" class="form-control" id="validationDefault05" required>
+    </div>
+    <div class="col-md-4">
+      <label for="validationDefault03" class="form-label"><font color="white">Телефон:</font></label>
+      <input type="number" class="form-control" id="validationDefault03" required value="+9989" placeholder="+9989">
+    </div>
+    <div class="col-12">
+     <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+      <label class="form-check-label" for="invalidCheck2"><font color="white">Согласен с условиями</font>
+        </label>
+      </div>
+    </div>
+    <div class="col-12">
+      <button class="btn btn-dark" type="submit">Сохранить</button>
+    </div>
+  </form>
+</div> 
+</div>
+<div class="row" style="height: 100px;"></div>
+
+</div> <br><br> 
+
+</div>
+
+
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript">
+// let a=document.querySelector("#Companyy")
+// let b=document.querySelector("#Comp")
+// a.onclick=() =>{
+// 	b.scrollIntoView({behavior:'smooth'})
+// }
+	function block2(bbb){
+	let rasm = document.getElementById("picture")
+	 rasm.src = "photo/slider2.jpg"	 
+	 let img= document.getElementsByTagName('div')
+	for(i=0;i<img.length;i++){
+		img[i].style.borderColor='black'
+	}
+	bbb.style.borderColor='red'
+
+	}
+	function block3(bbb){
+	let rasm = document.getElementById("picture")
+	 rasm.src = "photo/slider3.jpg"	 
+	 let img= document.getElementsByTagName('div')
+	for(i=0;i<img.length;i++){
+		img[i].style.borderColor='black'
+	}
+	bbb.style.borderColor='red'
+
+	}
+	function block4(bbb){
+	let rasm = document.getElementById("picture")
+	 rasm.src = "photo/slider1.jpg"	 
+	 let img= document.getElementsByTagName('div')
+	for(i=0;i<img.length;i++){
+		img[i].style.borderColor='black'
+	}
+	bbb.style.borderColor='red'
+
+	}
+
+	$("#Companyy").click(function(){
+			let son = $("#Comp").offset().top
+			$("html,body").animate({"scrollTop":son},500)
+		})
+
+	$("#Tovarr").click(function(){
+			let son = $("#tovar").offset().top
+			$("html,body").animate({"scrollTop":son},500)
+		})
+
+
+		    $("#menyu").click(function(){
+			$("html,body").animate({"scrollTop":0+"px"},500)
+		})
+
+		$(window).scroll(function(){
+	    	console.log($(window).scrollTop())
+		    if($(window).scrollTop()>1000){
+				$("#menyu").css({"display":"block"})
+		    }
+		    else{
+				$("#menyu").css({"display":"none"})
+		    }
+	    //   if($(window).scrollTop()==2000){
+	    //     alert("2000 dan oshdi")
+	    // }
+    	})
+		    $("#up").click(function(){
+			$("html,body").animate({"scrollTop":0+"px"},500)
+		})
+
+		$(window).scroll(function(){
+	    	console.log($(window).scrollTop())
+		    if($(window).scrollTop()>450){
+				$("#up").css({"display":"block"})
+		    }
+		    else{
+				$("#up").css({"display":"none"})
+		    }
+	    //   if($(window).scrollTop()==2000){
+	    //     alert("2000 dan oshdi")
+	    // }
+    	})
+
+
+let son=0
+function	counter(){
+let a= document.querySelector("#number")
+son++
+a.innerHTML=son
+let b= setTimeout("counter()",100)
+	
+	if (son==350) {
+		clearTimeout(b)
+	}
+
+}
+
+</script>
+</body>
+</html>
+<!-- class="rounded mx-auto d-block img-thumbnail" alt="..." -->
